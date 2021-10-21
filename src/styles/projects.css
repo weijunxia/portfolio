@@ -1,0 +1,39 @@
+.projects_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 90%;
+}
+.project_card {
+  display: flex;
+  border: 1px solid lightgray;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.project_card_link {
+  text-decoration: none;
+  color: black;
+}
+.project_card_left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.project_card_left_image {
+  height: 300px;
+  width: 500px;
+}
+.project_card_right {
+  display: flex;
+  flex-direction: column;
+}
+.project_card_right_h3 {
+  justify-content: start;
+  width: fit-content;
+}
+
+.project_card_right_p {
+  justify-content: start;
+  align-items: flex-start;
+}

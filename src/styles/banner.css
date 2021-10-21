@@ -1,0 +1,83 @@
+.banner {
+  display: flex;
+  height: 70vh;
+  background: url('../images//11-0-Color-Night-thumbnails.jpeg');
+  background-size: cover;
+  align-items: center;
+}
+
+.banner_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 30vw;
+  height: 30vh;
+  padding: 25vh;
+  margin-left: 10vw;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+
+.banner_icons {
+  display: flex;
+}
+
+.folder_description {
+  position: absolute;
+  margin-left: 10px;
+  top: 50vh;
+  left: 90vw;
+  height: 120px;
+  width: 100px;
+}
+.folder_image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -20px;
+}
+
+.folder_paragraph {
+  color: white;
+}
+
+.resume_container {
+  position: absolute;
+  margin-right: 10px;
+  top: 48vh;
+  left: 80vw;
+  height: 120px;
+  width: 100px;
+}
+
+.resume_image {
+  width: 70px;
+  height: 100px;
+  margin-bottom: -10px;
+}
+.resume_paragraph {
+  color: white;
+}
+
+.banner_info > button {
+  height: fit-content;
+  width: fit-content;
+  font-size: 20px;
+  text-transform: inherit;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  font-weight: 300;
+  border: none;
+  border-radius: 2px;
+}
+
+.banner_info > button:hover {
+  background-color: black;
+  color: white;
+}
