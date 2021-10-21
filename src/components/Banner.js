@@ -21,8 +21,15 @@ function Banner() {
           </div>
         </Link>
         <div className="resume_container">
-          <img src={resume} className="resume_image" alt="resume pdf" />
-          <p className="resume_paragraph">Resume</p>
+          <a
+            className="resume_link"
+            href="https://drive.google.com/file/d/1g115Q8qZWk_aefkAiLKPmCqQES6FveDK/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={resume} className="resume_image" alt="resume pdf" />
+            <p className="resume_paragraph">Resume</p>
+          </a>
         </div>
       </div>
     </div>
