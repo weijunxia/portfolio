@@ -1,6 +1,5 @@
 import './styles/app.css'
 import NavBar from './components/NavBar'
-import Banner from './components/Banner'
 import Projects from './components/Projects'
 import { Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
