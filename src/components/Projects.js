@@ -24,7 +24,7 @@ function Projects() {
               Techonologies Used: React, Redux, PostgreSQL, Express, Node, AWS
               S3, and Stripe.
             </h3>
-            <h3>
+            <h3 className="project_card_right_h3">
               Links:&#160;
               <a
                 className="project_card_link"
@@ -72,9 +72,9 @@ function Projects() {
           <div className="project_card_right">
             <h3 className="project_card_right_h3">
               Techonologies Used: React, MongoDB, Express, Node, Recharts, and
-              Plaid Link API.
+              Plaid.
             </h3>
-            <h3>
+            <h3 className="project_card_right_h3">
               Links:&#160;
               <a
                 className="project_card_link"
@@ -127,7 +127,7 @@ function Projects() {
               Techonologies Used: React, PostgreSQL, Express, Node, and Plaid
               Link API.
             </h3>
-            <h3>
+            <h3 className="project_card_right_h3">
               Links:&#160;
               <a
                 className="project_card_link"
@@ -178,7 +178,7 @@ function Projects() {
             <h3 className="project_card_right_h3">
               Techonologies Used: Javascript, HTML, CSS
             </h3>
-            <h3>
+            <h3 className="project_card_right_h3">
               Links:&#160;
               <a
                 className="project_card_link"
