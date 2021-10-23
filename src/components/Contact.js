@@ -40,6 +40,7 @@ function Contact() {
             type="text"
             name="from_name"
             className="contact_form_name_input"
+            placeholder="Jon Doe"
           />
           &#160;
           <label className="contact_form_label">Email:&#160; </label>
@@ -47,12 +48,17 @@ function Contact() {
             type="email"
             name="user_email"
             className="contact_form_email_input"
+            placeholder="JonathanDoe@gmail.com"
           />
         </div>
         <label className="contact_form_label_text_area">
           Project Details:&#160;
         </label>
-        <textarea name="message" className="contact_form_textarea" />
+        <textarea
+          name="message"
+          placeholder="Hello, I love your work and would love to offer you a contract to help our company build our new site!"
+          className="contact_form_textarea"
+        />
         <input type="submit" value="Submit" className="contact_form_submit" />
       </form>
     </div>
