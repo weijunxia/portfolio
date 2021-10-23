@@ -1,7 +1,6 @@
 .projects_wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 2fr));
   width: 90%;
 }
 .project_card {
@@ -37,4 +36,22 @@
 .project_card_right_p {
   justify-content: start;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+  .projects_wrapper {
+    width: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .project_card_left_image {
+    height: 200px;
+    width: 350px;
+    margin: auto;
+  }
+  .project_card {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(1fr, 2fr));
+  }
 }

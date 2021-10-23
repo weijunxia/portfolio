@@ -4,6 +4,7 @@
   background: url('../images//11-0-Color-Night-thumbnails.jpeg');
   background-size: cover;
   align-items: center;
+  width: 100%;
 }
 
 .banner_info {
@@ -24,10 +25,6 @@
   border-radius: 5px;
 }
 
-.banner_icons {
-  display: flex;
-}
-
 .folder_description {
   position: absolute;
   margin-left: 10px;
@@ -35,13 +32,13 @@
   left: 90vw;
   height: 120px;
   width: 100px;
+  cursor: pointer;
 }
 .folder_image {
   width: 100px;
   height: 100px;
   margin-bottom: -20px;
 }
-
 .folder_paragraph {
   color: white;
 }
@@ -49,10 +46,12 @@
 .resume_container {
   position: absolute;
   margin-right: 10px;
-  top: 48vh;
+  top: 48.5vh;
   left: 80vw;
   height: 120px;
   width: 100px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .resume_image {
@@ -63,7 +62,29 @@
 .resume_paragraph {
   color: white;
 }
+.linkedin_container {
+  position: absolute;
+  margin-right: 10px;
+  top: 49.5vh;
+  left: 70vw;
+  height: 120px;
+  width: 100px;
+  cursor: pointer;
+}
+.linkedin_image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -20px;
+}
 
+.linkedin_link {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin_paragraph {
+  color: white;
+}
 .banner_info > button {
   height: fit-content;
   width: fit-content;
@@ -80,4 +101,29 @@
 .banner_info > button:hover {
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .banner_info {
+    width: 90vw;
+    position: relative;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    bottom: 100px;
+  }
+  .resume_container {
+    position: absolute;
+    left: 3vw;
+    margin-top: 3vh;
+  }
+  .folder_description {
+    position: absolute;
+    left: 33vw;
+    margin-top: 2.35vh;
+    margin-left: -3px;
+  }
+  .linkedin_container {
+    margin-top: 2.75vh;
+    left: 65vw;
+  }
 }

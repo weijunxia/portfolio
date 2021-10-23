@@ -26,7 +26,7 @@ function Contact() {
     e.target.reset()
   }
   return (
-    <form ref={form} onSubmit={sendEmail} className="contact_form">
+    <form ref={form} onSubmit={sendEmail} className="contact_form" id="contact">
       <h1 className="contact_form_h1">Send a project request!</h1>
       <div className="name_and_email_container">
         <label className="contact_form_label">Name: &#160;</label>

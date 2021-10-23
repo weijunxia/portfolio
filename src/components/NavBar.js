@@ -1,25 +1,37 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import '../styles/navbar.css'
 
 function NavBar() {
   return (
     <div className="nav_bar">
       <div className="nav_bar_left">
-        <NavLink to="/" className="nav_bar_item">
+        <Link
+          to="home"
+          smooth={true}
+          className="nav_bar_item"
+          activeClass="active"
+        >
           Wei Jun Xia
-        </NavLink>
+        </Link>
       </div>
       <div className="nav_bar_right">
-        <NavLink to="/works" className="nav_bar_item">
+        <Link
+          to="works"
+          smooth={true}
+          className="nav_bar_item"
+          activeClass="active"
+        >
           Works
-        </NavLink>
-        <NavLink to="/blog" className="nav_bar_item">
-          Blog
-        </NavLink>
-        <NavLink to="/contact" className="nav_bar_item">
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          className="nav_bar_item"
+          activeClass="active"
+        >
           Contact
-        </NavLink>
+        </Link>
       </div>
     </div>
   )

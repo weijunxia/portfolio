@@ -8,11 +8,15 @@ import '../styles/projects.css'
 function Projects() {
   return (
     <div>
-      <div className="projects_wrapper">
-        <h1>Featured Projects</h1>
+      <h1>Featured Projects</h1>
+      <div className="projects_wrapper" id="projects">
         <section className="project_card">
           <div className="project_card_left">
-            <h3 className="project_card_left_h3">Gently Used</h3>
+            <h3 className="project_card_left_h3">
+              Gently Used: Customer to customer used clothing marketplace,
+              marketed towards those who resell clothes and care about the
+              environment.
+            </h3>
             <img
               src={gentlyused}
               alt="gently used project screenshot"
@@ -44,10 +48,6 @@ function Projects() {
                 Live Demo
               </a>
             </h3>
-            <p className="project_card_right_p">
-              Customer to customer used clothing marketplace, marketed towards
-              those who resell clothes and care about the environment.
-            </p>
             <p className="project_card_right_p">
               Designing, developing, and deploying a responsive and secure full
               stack application, using PostgreSQL for my database and Redux for
