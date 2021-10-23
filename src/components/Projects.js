@@ -48,16 +48,18 @@ function Projects() {
                 Live Demo
               </a>
             </p>
-            <p className="project_card_right_p">
-              Designing, developing, and deploying a responsive and secure full
-              stack application, using PostgreSQL for my database and Redux for
-              state management in one week. Plans, on the GitHub, for added
-              features in the works to bring the site to launch.
-            </p>
-            <p className="project_card_right_p">
-              Implementing AWS S3 image hosting through CloudFront for to allow
-              users quick access to uploading and their photos
-            </p>
+            <ul>
+              <li className="project_card_right_li">
+                Designing, developing, and deploying a responsive and secure
+                full stack application, using PostgreSQL for my database and
+                Redux for state management in one week. Plans, on the GitHub,
+                for added features in the works to bring the site to launch.
+              </li>
+              <li className="project_card_right_li">
+                Implementing AWS S3 image hosting through CloudFront for to
+                allow users quick access to uploading and their photos
+              </li>
+            </ul>
           </div>
         </section>
         <section className="project_card">
@@ -76,7 +78,7 @@ function Projects() {
           <div className="project_card_right">
             <p className="project_card_right_p">
               <strong>Techonologies Used:</strong> React, MongoDB, Express,
-              Node, Recharts, and Plaid.
+              Node, Recharts, and Plaid Link API.
             </p>
             <p className="project_card_right_p">
               <strong>Links:&#160;</strong>
@@ -98,20 +100,21 @@ function Projects() {
                 Live Demo
               </a>
             </p>
-            <p className="project_card_right_p"></p>
-            <p className="project_card_right_p">
-              Using the Plaid Link library on front end to allow users to
-              securely connect accounts with Plaid API, as well as handling
-              credential validation and multi-factor authentication.{' '}
-            </p>
-            <p className="project_card_right_p">
-              Implementing secure access token handling to securely access
-              financial data from a user’s bank account.{' '}
-            </p>
-            <p className="project_card_right_p">
-              Integrating Recharts into React front end to help users analyze
-              their financial data and set goals.
-            </p>
+            <ul>
+              <li className="project_card_right_li">
+                Using the Plaid Link library on front end to allow users to
+                securely connect accounts with Plaid API, as well as handling
+                credential validation and multi-factor authentication.{' '}
+              </li>
+              <li className="project_card_right_li">
+                Implementing secure access token handling to securely access
+                financial data from a user’s bank account.{' '}
+              </li>
+              <li className="project_card_right_li">
+                Integrating Recharts into React front end to help users analyze
+                their financial data and set goals.
+              </li>
+            </ul>
           </div>
         </section>
         <section className="project_card">
@@ -130,7 +133,7 @@ function Projects() {
           <div className="project_card_right">
             <p className="project_card_right_p">
               <strong>Techonologies Used:</strong> React, PostgreSQL, Express,
-              Node, and Plaid Link API.
+              Node, and Mapbox.
             </p>
             <p className="project_card_right_p">
               <strong>Links:&#160;</strong>
@@ -152,19 +155,20 @@ function Projects() {
                 Live Demo
               </a>
             </p>
-            <p className="project_card_right_p"></p>
-            <p className="project_card_right_p">
-              Product managing the team, delegating responsibilities, git
-              management, as well as aiding in troubleshooting.
-            </p>
-            <p className="project_card_right_p">
-              Integrating Mapbox API to allow users to find and filter rental
-              cars by location and availability.
-            </p>
-            <p className="project_card_right_p">
-              Oversaw design and front end to create a modern, sleek, and
-              performant design with minimal use of CSS libraries.
-            </p>
+            <ul>
+              <li className="project_card_right_li">
+                Product managing the team, delegating responsibilities, git
+                management, as well as aiding in troubleshooting.
+              </li>
+              <li className="project_card_right_li">
+                Integrating Mapbox API to allow users to find and filter rental
+                cars by location and availability.
+              </li>
+              <li className="project_card_right_li">
+                Oversaw design and front end to create a modern, sleek, and
+                performant design with minimal use of CSS libraries.
+              </li>
+            </ul>
           </div>
         </section>
         <section className="project_card">
@@ -203,14 +207,16 @@ function Projects() {
                 Live Demo
               </a>
             </p>
-            <p className="project_card_right_p">
-              Developed custom game logic using vanilla JS to create an
-              immersive and competitive gaming experience.
-            </p>
-            <p className="project_card_right_p">
-              Designed and developed a fully responsive front end for both
-              mobile and desktop users.
-            </p>
+            <ul>
+              <li className="project_card_right_li">
+                Developed custom game logic using vanilla JS to create an
+                immersive and competitive gaming experience.
+              </li>
+              <li className="project_card_right_li">
+                Designed and developed a fully responsive front end for both
+                mobile and desktop users.
+              </li>
+            </ul>
           </div>
         </section>
       </div>

@@ -26,29 +26,36 @@ function Contact() {
     e.target.reset()
   }
   return (
-    <form ref={form} onSubmit={sendEmail} className="contact_form" id="contact">
-      <h1 className="contact_form_h1">Send a project request!</h1>
-      <div className="name_and_email_container">
-        <label className="contact_form_label">Name: &#160;</label>
-        <input
-          type="text"
-          name="from_name"
-          className="contact_form_name_input"
-        />
-        &#160;
-        <label className="contact_form_label">Email:&#160; </label>
-        <input
-          type="email"
-          name="user_email"
-          className="contact_form_email_input"
-        />
-      </div>
-      <label className="contact_form_label_text_area">
-        Project Details:&#160;
-      </label>
-      <textarea name="message" className="contact_form_textarea" />
-      <input type="submit" value="Submit" className="contact_form_submit" />
-    </form>
+    <div className="contact_form_wrapper">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="contact_form"
+        id="contact"
+      >
+        <h1 className="contact_form_h1">Send a project request!</h1>
+        <div className="name_and_email_container">
+          <label className="contact_form_label">Name: &#160;</label>
+          <input
+            type="text"
+            name="from_name"
+            className="contact_form_name_input"
+          />
+          &#160;
+          <label className="contact_form_label">Email:&#160; </label>
+          <input
+            type="email"
+            name="user_email"
+            className="contact_form_email_input"
+          />
+        </div>
+        <label className="contact_form_label_text_area">
+          Project Details:&#160;
+        </label>
+        <textarea name="message" className="contact_form_textarea" />
+        <input type="submit" value="Submit" className="contact_form_submit" />
+      </form>
+    </div>
   )
 }
 
