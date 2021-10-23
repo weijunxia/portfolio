@@ -36,4 +36,14 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+  .contact_form {
+    width: 50vw;
+    /* margin-left: auto;*/
+    margin: auto;
+  }
+  .contact_form_h1 {
+    font-size: 23px;
+    width: 70vw;
+    margin-left: -8vw;
+  }
 }
