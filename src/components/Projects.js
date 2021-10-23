@@ -12,11 +12,11 @@ function Projects() {
       <div className="projects_wrapper" id="projects">
         <section className="project_card">
           <div className="project_card_left">
-            <h3 className="project_card_left_h3">
-              Gently Used: Customer to customer used clothing marketplace,
-              marketed towards those who resell clothes and care about the
-              environment.
-            </h3>
+            <p className="project_card_left_p">
+              <strong>Gently Used: </strong> Customer to customer used clothing
+              marketplace, marketed towards those who resell clothes and care
+              about the environment.
+            </p>
             <img
               src={gentlyused}
               alt="gently used project screenshot"
@@ -24,12 +24,12 @@ function Projects() {
             />
           </div>
           <div className="project_card_right">
-            <h3 className="project_card_right_h3">
-              Techonologies Used: React, Redux, PostgreSQL, Express, Node, AWS
-              S3, and Stripe.
-            </h3>
-            <h3 className="project_card_right_h3">
-              Links:&#160;
+            <p className="project_card_right_p">
+              <strong>Techonologies Used:</strong> React, Redux, PostgreSQL,
+              Express, Node, AWS S3, and Stripe.
+            </p>
+            <p className="project_card_right_p">
+              <strong>Links:&#160;</strong>
               <a
                 className="project_card_link"
                 href="https://github.com/weijunxia/gentlyused"
@@ -47,12 +47,12 @@ function Projects() {
               >
                 Live Demo
               </a>
-            </h3>
+            </p>
             <p className="project_card_right_p">
               Designing, developing, and deploying a responsive and secure full
               stack application, using PostgreSQL for my database and Redux for
-              state management in one week with plans, on the GitHub, in the
-              works to bring the site to launch.
+              state management in one week. Plans, on the GitHub, for added
+              features in the works to bring the site to launch.
             </p>
             <p className="project_card_right_p">
               Implementing AWS S3 image hosting through CloudFront for to allow
@@ -62,7 +62,11 @@ function Projects() {
         </section>
         <section className="project_card">
           <div className="project_card_left">
-            <h3>fatFIRE</h3>
+            <p className="project_card_left_p">
+              <strong>fatFIRE: </strong> Financial management app where users
+              securely access their bank accounts and transactions using Plaid’s
+              API.
+            </p>
             <img
               src={fatfire}
               alt="fat FIRE project screenshot"
@@ -70,12 +74,12 @@ function Projects() {
             />
           </div>
           <div className="project_card_right">
-            <h3 className="project_card_right_h3">
-              Techonologies Used: React, MongoDB, Express, Node, Recharts, and
-              Plaid.
-            </h3>
-            <h3 className="project_card_right_h3">
-              Links:&#160;
+            <p className="project_card_right_p">
+              <strong>Techonologies Used:</strong> React, MongoDB, Express,
+              Node, Recharts, and Plaid.
+            </p>
+            <p className="project_card_right_p">
+              <strong>Links:&#160;</strong>
               <a
                 className="project_card_link"
                 href="https://github.com/weijunxia/FIRE"
@@ -93,11 +97,8 @@ function Projects() {
               >
                 Live Demo
               </a>
-            </h3>
-            <p className="project_card_right_p">
-              Financial management app where users securely access their bank
-              accounts and transactions using Plaid’s API.
             </p>
+            <p className="project_card_right_p"></p>
             <p className="project_card_right_p">
               Using the Plaid Link library on front end to allow users to
               securely connect accounts with Plaid API, as well as handling
@@ -115,7 +116,11 @@ function Projects() {
         </section>
         <section className="project_card">
           <div className="project_card_left">
-            <h3>DriveMe</h3>
+            <p className="project_card_left_p">
+              <strong>DriveMe:</strong> Tesla rental service app based in NYC,
+              with prospects to pivot to a robo taxi service as SAE 4+ is
+              achieved.
+            </p>
             <img
               src={driveme}
               alt="drive me project screenshot"
@@ -123,12 +128,12 @@ function Projects() {
             />
           </div>
           <div className="project_card_right">
-            <h3 className="project_card_right_h3">
-              Techonologies Used: React, PostgreSQL, Express, Node, and Plaid
-              Link API.
-            </h3>
-            <h3 className="project_card_right_h3">
-              Links:&#160;
+            <p className="project_card_right_p">
+              <strong>Techonologies Used:</strong> React, PostgreSQL, Express,
+              Node, and Plaid Link API.
+            </p>
+            <p className="project_card_right_p">
+              <strong>Links:&#160;</strong>
               <a
                 className="project_card_link"
                 href="https://github.com/weijunxia/DriveMe"
@@ -146,11 +151,8 @@ function Projects() {
               >
                 Live Demo
               </a>
-            </h3>
-            <p className="project_card_right_p">
-              Tesla rental service app based in NYC, with prospects to pivot to
-              a robo taxi service as SAE 4+ is achieved.
             </p>
+            <p className="project_card_right_p"></p>
             <p className="project_card_right_p">
               Product managing the team, delegating responsibilities, git
               management, as well as aiding in troubleshooting.
@@ -167,7 +169,10 @@ function Projects() {
         </section>
         <section className="project_card">
           <div className="project_card_left">
-            <h3>CryptoFlipr</h3>
+            <p className="project_card_left_p">
+              <strong>CryptoFlipr:</strong> A crypto themed memory training game
+              with the intention to teach users more about each crypto project!
+            </p>
             <img
               src={cryptoflipr}
               alt="crypto flipr project screenshot"
@@ -175,11 +180,11 @@ function Projects() {
             />
           </div>
           <div className="project_card_right">
-            <h3 className="project_card_right_h3">
-              Techonologies Used: Javascript, HTML, CSS
-            </h3>
-            <h3 className="project_card_right_h3">
-              Links:&#160;
+            <p className="project_card_right_p">
+              <strong>Techonologies Used:</strong> Javascript, HTML, CSS
+            </p>
+            <p className="project_card_right_p">
+              <strong>Links:&#160;</strong>
               <a
                 className="project_card_link"
                 href="https://github.com/weijunxia/CryptoFlipr"
@@ -197,12 +202,12 @@ function Projects() {
               >
                 Live Demo
               </a>
-            </h3>
-            <p>
+            </p>
+            <p className="project_card_right_p">
               Developed custom game logic using vanilla JS to create an
               immersive and competitive gaming experience.
             </p>
-            <p>
+            <p className="project_card_right_p">
               Designed and developed a fully responsive front end for both
               mobile and desktop users.
             </p>
