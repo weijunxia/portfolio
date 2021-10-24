@@ -2,3 +2,6 @@ For this hour
 TODOS:
 - Projects Component and make that more responsive and better layout
 - Fix Contact form to be prettier and more responsive
+
+- Fix fatFIRE landing page
+- Add Charts
